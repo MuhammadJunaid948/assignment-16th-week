@@ -1,0 +1,595 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'opensens';
+}
+
+@font-face {
+    font-family: opensens;
+    src: url(font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+.nav-bar-text h6 {
+    font-family: "opensens";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.nav-bar-text h6 span {
+    font-size: small;
+
+}
+
+.navbar-brand img {
+    width: 100%;
+    padding: 0 25px;
+}
+
+.header-btn {
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 20px 40px 10px #FFAE004A;
+    background: #FFFFFF;
+
+}
+#manu-bar{
+    display: none;
+}
+
+.banner-front {
+
+    height: 500px;
+    padding: 0px;
+    background-image: url(images/front-banner.png);
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+i {
+    color: #F17228;
+}
+
+.text-banner {
+    margin: 0 auto;
+    height: 100%;
+    align-items: center;
+
+}
+
+.banner-img {
+    position: relative;
+}
+
+.banner-img img {
+    position: absolute;
+    top: -104px;
+}
+
+.text-box h1 {
+    color: white;
+    font-family: "opensens";
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.text-box p {
+    font-family: "opensens";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.banner-form {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.banner-form-btn {
+    padding: 15px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+
+button.btn.banner-form-btn-1 {
+    background-color: white;
+    color: #F17228;
+    border-radius: 8px;
+}
+
+button.btn.banner-form-btn-2 {
+    background-color: white;
+
+    color: #F17228;
+    border-radius: 8px;
+
+}
+
+.input-section {
+    padding: 20px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: start;
+    position: relative;
+
+}
+
+.input-section input {
+    outline: none;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px 10px 5px 46px;
+    border: none;
+    background: #F5F5F5;
+
+}
+
+i#location-dot-input-section {
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    color: #FF7474;
+    font-size: 20px;
+}
+
+button.btn.input-section-btn {
+    color: white;
+    background-color: #FF7A7A;
+    border-radius: 8px;
+    white-space: nowrap;
+}
+
+span#input-secion-submit {
+    padding: 5px 15px;
+}
+
+
+.dish-images img {
+    width: 100%;
+    border-radius: 18px;
+}
+
+
+.dishes-buttons {
+    background-color: #F17228 !important;
+}
+
+.how-it-works h1 {
+    color: #F17228 !important;
+
+}
+
+.how-work-section img {
+    width: 100%;
+    padding: 10px 25px;
+}
+
+.popular-item img {
+    width: 100%;
+    border-radius: 18px;
+
+}
+
+.Popular-itm-buttons {
+    background-color: #F17228 !important;
+    white-space: nowrap;
+    box-shadow: 0px 0px 20px 0px #FA6323;
+
+}
+
+.ft-product img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.ft-logo img {
+    width: 50px;
+}
+
+.ft-text h1 {
+    font-size: 15px;
+    white-space: nowrap;
+    ;
+    padding: 5px;
+
+}
+
+.ft-text h5 {
+    font-size: 20px;
+    white-space: wrap;
+    padding: 0 4px;
+
+}
+
+.ft-itm-buttons {
+    background-color: #F17228 !important;
+    white-space: nowrap;
+    box-shadow: 0px 0px 20px 0px #FA6323;
+    border-radius: 27px !important;
+}
+
+a.btn.btn-success.px-5.py-1\.5.m-5.view-all-btn {
+    background-color: #FFBA26 !important;
+    border: none;
+}
+
+.foods-section-main {
+    background-color: #FEFAF1;
+}
+
+.foods-section img {
+    width: 100%;
+    border-radius: 250px;
+}
+
+.view-all-link {
+    text-decoration: none;
+    font-size: 25px;
+    color: #F17228;
+
+
+}
+
+.ft-cards-main {
+    background-color: #FEEFD0;
+    /* height: 300px; */
+
+
+}
+
+.ft-cards-child {
+    background-color: white;
+    border-radius: 46px;
+
+
+}
+
+.ft-cards-gc h2 {
+    color: #FFB800;
+
+}
+
+.ft-cards-gc {
+    border-right: 2px solid #CFCFCF;
+
+}
+
+.ft-cards-gc img {
+    width: 70%;
+}
+
+.install-app-section {
+    background-image: url(images/Install-App-section/Background.png);
+    overflow: hidden;
+    background-color: #FFB800;
+}
+
+.install-app-child img {
+    width: 100%;
+}
+
+.text-box-install-app h1 {
+    color: #FFB800;
+    font-family: "opensens";
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* white-space: nowrap; */
+}
+
+.text-box-install-app p {
+    font-family: "opensens";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    /* white-space: pre-wrap; */
+
+
+
+}
+
+.install-logo {
+    font-size: 40px;
+}
+
+.install-cards {
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 20px 40px 0px #F17228;
+}
+
+.deals-cards-1 {
+    box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
+    border-radius: 16px;
+}
+
+.deal-cards1-child img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.deal-btn {
+    display: flex;
+    justify-content: center !important;
+}
+
+.deals-cards-2 {
+    box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
+    border-radius: 16px;
+
+
+
+}
+
+.deal-cards1-child img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.deal-btn {
+    display: flex;
+    justify-content: center !important;
+}
+
+.cta-child {
+    background-image: url(images/above-footer-img.png);
+    background-size: cover;
+    height: 400px;
+}
+
+.cta-grand-child h1 {
+    color: white;
+
+}
+
+.btn-specail a {
+    text-decoration: none;
+
+}
+
+.btn-specail a button {
+    background-color: #F17228;
+    color: white;
+}
+
+.others-location ul li {
+    list-style: none;
+
+}
+
+.others-location ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-others-location {
+    background-color: #000;
+
+}
+
+.others-location-heading h1 {
+    color: white;
+
+}
+
+.footer {
+    background-color: #000;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-content ul li {
+    list-style: none;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-media-handels h4 {
+    color: white;
+
+}
+
+.social-media-handels p {
+    color: grey;
+}
+
+.social-media-icons {
+    font-size: 25px;
+}
+
+.input-footer {
+    border: none;
+}
+
+.footer {
+    border: 1px solid #424242;
+    border-bottom: 1px solid #424242;
+}
+
+#footer-btn {
+    background-color: #FFB800 !important;
+
+}
+.footer-text img{
+
+
+}
+
+
+
+
+@media (max-width:600px) {
+    .text-box-install-app h1 {
+        text-align: center;
+        color: #FFB800;
+        font-family: "opensens";
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 72px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+
+
+}
+
+@media (max-width:600px) {
+    .header-input{
+        display: none;
+    }
+    .header-btn{
+        display: none;
+    }
+    .main-nav-bar h6 span{
+        display: none;
+    }
+    #nav-bar-text{
+        display: none;
+    }
+    #manu-bar{
+        display: contents;
+        font-size: 20px;
+    }
+    .navbar-brand img {
+        width: 60%;
+        margin: 0;
+        padding: 0;
+    }
+    
+}
+@media (max-width:370px) {
+    #manu-bar{
+        display: contents;
+        font-size: 16px;
+        display: inline-flex;
+    }
+    .navbar-brand{
+        width: 230px;
+    }
+
+    
+}
+
+@media (max-width:1240px) {
+    .ft-cards-gc {
+        border: none;
+
+
+    }
+
+    .deals-cards-1 {
+        flex-direction: column-reverse !important;
+
+    }
+
+    .deals-cards-2 {
+        flex-direction: column !important;
+    }
+
+}
+
+@media (max-width:428px) {
+    .input-section {
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: start;
+        position: relative;
+
+
+
+
+
+
+
+    }
+
+    .input-section input {
+        outline: none;
+        border-style: solid;
+        border-radius: 15px;
+        padding: 10px 10px 5px 46px;
+        border: none;
+        background: #F5F5F5;
+
+    }
+
+    .banner-img img {
+        display: none;
+        position: absolute;
+        top: -104px;
+    }
+
+    button.btn.input-section-btn {
+        margin: 10px auto;
+        color: white;
+        background-color: #FF7A7A;
+        border-radius: 8px;
+        white-space: nowrap;
+    }
+
+    .text-box h1 {
+        color: white;
+        font-family: opensens;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 88px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .text-box p {
+        font-family: "opensens";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+}
+
+@media (max-width:767px) {
+    .install-app-section {
+        display: inline-block;
+        flex-direction: column-reverse;
+    }
+
+}
+
+
+@media (max-width:1060px) {
+    .banner-img img {
+        position: absolute;
+        top: -104px;
+        display: none;
+    }
+
+
+
+
+
+}
